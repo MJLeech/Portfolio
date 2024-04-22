@@ -268,3 +268,17 @@ text-decoration: underline teal;
     color:aquamarine;
 }
 
+@media screen and (max-width: 992px) {
+    #content {
+      width: 70%;
+      height: 50%;
+}
+}
+@media screen and (max-width 9
+
+}
+
+}
+
+
+
