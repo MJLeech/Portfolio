@@ -1,0 +1,270 @@
+
+}
+*{
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction:column;
+    margin: 0%;
+   
+}
+
+header {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  background-image: linear-gradient(40deg, teal 0%, rgb(204, 0, 255) 200%);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgba(255, 127, 80, 0.836);
+  width: 100%;
+  height: 140 ;
+  z-index: 2;
+  box-shadow: 5px 5px 5px 5px;
+}
+
+header h1 {
+    margin-left: 100px;
+}
+
+nav ul {
+   
+    display: flex;
+    flex-direction: row;
+     
+}
+nav ul li{
+    display: flex;
+    margin: 10px 40px 10px 40px;
+}
+nav a {
+    font-family: Helvetica, sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    color: coral;
+    text-decoration: underline purple;
+    text-underline-offset: 5px;
+}
+
+nav a:hover{
+    display: inline;
+    font-size: 27px ;
+    background-color: purple;
+    margin: -2px -2px -2px -2px;
+}
+
+#cme:hover{
+margin: -2px -5px -2px -5px;
+}
+#RES:hover{
+    margin: 10px 37px 10px 40px;
+}
+
+#subtitle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-image:url(../images/repeating\ backgrnd.avif) ;
+    background-size:cover;
+    color:rgba(80, 86, 255, 0.836);
+    width: 100%;
+    height: 150px;
+    outline-style: double;
+    outline-color: black;
+    box-shadow: 0px 20px 20px 0px;
+    border-radius: 1px 1px 1px 420px
+}
+#subtitle h1 {
+    display:flex; 
+    flex-direction: column-reverse;
+    align-items:flex-start;
+    margin: 0px 50px 30px 0px;
+    font-size: 150%;
+    font-family: Helvetica, sans-serif;
+    font-style: oblique;
+    margin-left:70%
+}
+#labels{
+    display: flex; 
+    flex-direction: column;
+    align-items: flex end;
+    justify-content: space-between;
+    float: left; 
+    width: 20%;
+    margin-left: 30px;
+    color:teal;
+    font-family:Helvetica, sans-serif;
+    font-size: 200%;
+    padding: 20px;
+}
+#About-Me{
+    height: 230px; 
+    display:flex;
+    justify-content: flex-end; 
+    align-items: flex-start;
+    border-right:solid teal;
+    padding: 20px;
+    border-width: 6px
+}
+#About-Me span{
+    display:flex;
+    justify-content: flex-end  
+}
+#Work{
+    display:flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    height: 1200px;
+    padding: 20px;
+    margin: 30px 0px 30px 0px;
+    border-right:solid teal;
+    border-width: 6px;
+}
+#Contact-Me{
+    height: 200px;
+    display:flex;
+    
+    justify-content: flex-end;
+    align-items: flex-start;
+    border-right:solid teal;   
+    padding: 20px;
+    border-width: 6px              
+}
+#Contact-Me span{
+display:flex;
+justify-content: flex-end
+}
+#content {
+    display:flex;
+    justify-content:center;
+    flex-flow: row wrap;
+    align-items:space-around;
+    margin: 25px;
+    height:100% ;
+   }
+#content article {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.bigboi section div{
+
+    background-color: teal;
+    box-shadow: 5px 5px 5px 0px;
+    width: 130px;
+    height: 100px;
+}
+.bigboi {
+    
+    width:1500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    padding: 30px;
+    margin-top: 5%
+}
+.bigboi section{
+    display: flex;
+    background-image: url(../images/mi-cliffs.jpg);
+    background-size: cover;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    outline-style: double;
+    outline-width: 5px;
+    outline-color: teal;
+    z-index: 0;
+    
+}
+.bigboi section:hover{
+outline-width: 15px;
+cursor:pointer;
+}
+#cards4 {
+    display: flex;
+    width: 1500px;
+    height: 600px;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#cards4 section{
+    display:flex;
+    width: 100%;
+    height: 100%;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+
+#cards4 section figure{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    height: 40%;
+    width: 40%;
+    padding:10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    outline: teal;
+    outline-style: double;
+    outline-width:5px ;
+}
+#cards4 section figure:hover{
+    outline-width: 15px;
+    cursor: pointer;
+}
+#liz{
+    background-image: url(../images/animals_hero_lizards.jpg);
+    background-position:center;
+}
+
+#giraffe {
+    background-image: url(../images/G-raff.jpg);
+}
+#pig{
+    background-image: url(../images/pig01.jpg);
+    background-position:center;
+}
+#frog{
+    background-image: url(../images/frog-keeper-ellie.jpg) ;
+    background-position:center;
+   
+}
+#cards4 section figure div{
+    background-color: teal;
+    box-shadow: 5px 5px 5px 0px;
+    width: 130px;
+    height: 100px;
+    margin-left: -10px;
+}
+#footer {
+    height:400px;
+    width: max-content;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+#footer nav ul{
+    display: flex;
+    justify-content:space-between;
+    width: 10%;
+    
+}
+#footer nav ul li{
+font-family:Arial, Helvetica, sans-serif ;
+font-size: 200%;
+text-decoration: underline teal;
+}
+
+#footer nav ul li:hover{
+    background-color:teal;
+    color:aquamarine;
+}
+
